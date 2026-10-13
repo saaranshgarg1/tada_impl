@@ -1,0 +1,14 @@
+MFCC Baseline Results
+Feature dim: 78
+Accuracy: 0.9333
+Macro F1: 0.9332
+
+              precision    recall  f1-score   support
+
+    system_A       0.91      1.00      0.95        10
+    system_B       1.00      0.90      0.95        10
+    system_C       0.90      0.90      0.90        10
+
+    accuracy                           0.93        30
+   macro avg       0.94      0.93      0.93        30
+weighted avg       0.94      0.93      0.93        30

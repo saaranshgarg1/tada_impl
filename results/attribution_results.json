@@ -1,0 +1,31 @@
+{
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "k": 5,
+  "use_scaling": false,
+  "train_size": 117,
+  "test_size": 30,
+  "label_names": [
+    "system_A",
+    "system_B",
+    "system_C"
+  ],
+  "confusion_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n    system_A       1.00      1.00      1.00        10\n    system_B       1.00      1.00      1.00        10\n    system_C       1.00      1.00      1.00        10\n\n    accuracy                           1.00        30\n   macro avg       1.00      1.00      1.00        30\nweighted avg       1.00      1.00      1.00        30\n"
+}

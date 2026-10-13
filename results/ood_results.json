@@ -1,0 +1,37 @@
+{
+  "results_per_system": {
+    "system_A": {
+      "eer": 0.0952380952365341,
+      "accuracy": 0.9347826086956522,
+      "f1": 0.9340028694404592,
+      "ood_system": "system_A",
+      "known_systems": [
+        "system_B",
+        "system_C"
+      ]
+    },
+    "system_B": {
+      "eer": 0.09523809523894898,
+      "accuracy": 0.9347826086956522,
+      "f1": 0.9340028694404592,
+      "ood_system": "system_B",
+      "known_systems": [
+        "system_A",
+        "system_C"
+      ]
+    },
+    "system_C": {
+      "eer": 0.047619047617601024,
+      "accuracy": 0.9347826086956522,
+      "f1": 0.9345040341718083,
+      "ood_system": "system_C",
+      "known_systems": [
+        "system_A",
+        "system_B"
+      ]
+    }
+  },
+  "mean_eer": 0.07936507936436137,
+  "mean_accuracy": 0.9347826086956522,
+  "mean_f1": 0.9341699243509088
+}

@@ -1,0 +1,13 @@
+{
+  "method": "MFCC",
+  "accuracy": 0.9333333333333333,
+  "macro_f1": 0.933249791144528,
+  "feature_dim": 78,
+  "k": 5,
+  "label_names": [
+    "system_A",
+    "system_B",
+    "system_C"
+  ],
+  "report": "              precision    recall  f1-score   support\n\n    system_A       0.91      1.00      0.95        10\n    system_B       1.00      0.90      0.95        10\n    system_C       0.90      0.90      0.90        10\n\n    accuracy                           0.93        30\n   macro avg       0.94      0.93      0.93        30\nweighted avg       0.94      0.93      0.93        30\n"
+}
